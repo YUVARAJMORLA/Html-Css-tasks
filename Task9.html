@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 600px;
+            height: 500px;
+            margin: 20px;
+        }
+        #id1, #id2, #id3, #id4 {
+            height: 50px;
+            width: 60px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            transition: width 0.2s ease-in-out;
+        }
+        #id1:hover, #id2:hover, #id3:hover, #id4:hover {
+            width: 100px; 
+        }
+        #id5 {
+            padding: 20px;
+        }
+        #id6 {
+            font-size: 24px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td valign="top" style="padding-top: 30px;">
+                    <div id="id1" style="background-color: rgb(15, 144, 17);"></div>
+                    <div><ul></ul></div>
+                    <div id="id2" style="background-color: rgba(47, 155, 243, 0.916);"></div>
+                    <div><ul></ul></div>
+                    <div id="id3" style="background-color: rgb(255, 30, 0);"></div>
+                    <div><ul></ul></div>
+                    <div id="id4" style="background-color: rgba(22, 1, 1, 0.851);"></div>
+                    <div><ul></ul></div>
+                </td>
+                <td id="id5" valign="top">
+                    <h id="id6"><b>Hoverable Sidenav Buttons</b></h>
+                    <p id="id5">Hover over the buttons in the left side navigation to open them.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
